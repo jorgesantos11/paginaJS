@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .name-box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/800px-Heart_coraz%C3%B3n.svg.png'); /* Cambia 'heart.png' al nombre de tu imagen de corazón */
+    background-size: contain;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .name {
+    display: block;
+  }
+  
